@@ -1,0 +1,11 @@
+CREATE TABLE positions(
+	id DECIMAL(12),
+	position_name VARCHAR(32),
+	salary DECIMAL(12),
+	PRIMARY KEY (id)
+);
+
+INSERT INTO positions (id,position_name,salary) VALUES
+(1,'Manager',300),(2,'Back-end developer',500),
+(3,'Front-end developer',1000),(4,'Designer',400),
+(5,'QA-Engineer',1100);
