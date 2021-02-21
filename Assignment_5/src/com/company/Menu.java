@@ -1,7 +1,7 @@
 package com.company;
 import java.sql.SQLException;
 import java.util.Scanner;
-
+// here is my console menu
 public class Menu {
     Calculation calculation1 = new Calculation();
     Manager manager1 = new Manager();
