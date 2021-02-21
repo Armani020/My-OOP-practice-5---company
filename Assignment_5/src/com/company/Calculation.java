@@ -1,7 +1,7 @@
 package com.company;
 
 import java.sql.*;
-
+// In this class, employee salary data is taken from the database and used to calculate the project cost.
 public class Calculation{
     Manager manager1 = new Manager();
     BackEndDeveloper backender1 = new BackEndDeveloper();
