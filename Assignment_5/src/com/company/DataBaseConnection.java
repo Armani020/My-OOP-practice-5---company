@@ -1,7 +1,7 @@
 package com.company;
 
 import java.sql.*;
-
+// this is the class for connecting the database
 public class DataBaseConnection {
     public Connection getConnection() throws SQLException,ClassNotFoundException {
         String connectionUrl = "jdbc:postgresql://localhost:5432/postgres";
